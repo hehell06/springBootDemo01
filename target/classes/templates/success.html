@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:text="${user}">转义--将特殊字符转义并输出</div>
+<div th:utext="${user}">不转义--让页面解析</div>
+<hr/>
+<h4 th:each="num : ${arr}"> [[${num}]] </h4>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.hehe.springBootDemo.bean.Person",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.hehe.springBootDemo.config.DruidConfig",
+      "sourceMethod": "druid()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    },
+    {
+      "name": "person.info",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.hehe.springBootDemo.bean.Person"
+    }
+  ],
+  "hints": []
+}
